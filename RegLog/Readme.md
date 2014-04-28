@@ -13,18 +13,18 @@
 <h3>数据库设计</h3>
 数据库db\_reglog，库中包含一个用户表tb\_member
 <p>
-+-----------+--------------+------+-----+---------+----------------+
-| Field     | Type         | Null | Key | Default | Extra          |
-+-----------+--------------+------+-----+---------+----------------+
-| id        | int(11)      | NO   | PRI | NULL    | auto\_increment |
-| name      | varchar(100) | NO   |     | NULL    |                |
-| password  | char(40)     | NO   |     | NULL    |                |
-| email     | varchar(100) | NO   |     | NULL    |                |
-| realname  | varchar(200) | NO   |     | NULL    |                |
-| birthday  | date         | NO   |     | NULL    |                |
-| telephone | varchar(25)  | NO   |     | NULL    |                |
-| qq        | varchar(15)  | NO   |     | NULL    |                |
-| count     | int(1)       | NO   |     | 0       |                |
-| active    | int(1)       | NO   |     | 0       |                |
++-----------+--------------+------+-----+---------+----------------+<br />
+| Field     | Type         | Null | Key | Default | Extra          |<br />
++-----------+--------------+------+-----+---------+----------------+<br />
+| id        | int(11)      | NO   | PRI | NULL    | auto\_increment |<br />
+| name      | varchar(100) | NO   |     | NULL    |                |<br />
+| password  | char(40)     | NO   |     | NULL    |                |<br />
+| email     | varchar(100) | NO   |     | NULL    |                |<br />
+| realname  | varchar(200) | NO   |     | NULL    |                |<br />
+| birthday  | date         | NO   |     | NULL    |                |<br />
+| telephone | varchar(25)  | NO   |     | NULL    |                |<br />
+| qq        | varchar(15)  | NO   |     | NULL    |                |<br />
+| count     | int(1)       | NO   |     | 0       |                |<br />
+| active    | int(1)       | NO   |     | 0       |                |<br />
 +-----------+--------------+------+-----+---------+----------------+
 </p>
